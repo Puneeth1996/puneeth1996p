@@ -77,13 +77,13 @@ class App extends React.Component {
           </Navbar>
 
           <Switch>
-            <Route path="/" exact render={() => <HomePage subTitle={this.state.home.subTitle} />} />
-            <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-            <Route path="/projects" render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subTitle} text={this.state.projects.text} />} />
-            <Route path="/trainings" render={() => <TrainingPage title={this.state.trainings.title} subTitle={this.state.trainings.subTitle} />} />
-            <Route path="/blogs" render={() => <BlogRoute title={this.state.blogs.title} subTitle={this.state.blogs.subTitle} />} />
-            <Route path="/patreon" render={() => <PatreonPage title={this.state.patreon.title} subTitle={this.state.patreon.subTitle} />} />
-            <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} />} />
+            <Route path="/#/" exact render={() => <HomePage subTitle={this.state.home.subTitle} />} />
+            <Route path="/#/about" render={() => <AboutPage title={this.state.about.title} />} />
+            <Route path="/#/projects" render={() => <ProjectsPage title={this.state.projects.title} subTitle={this.state.projects.subTitle} text={this.state.projects.text} />} />
+            <Route path="/#/trainings" render={() => <TrainingPage title={this.state.trainings.title} subTitle={this.state.trainings.subTitle} />} />
+            <Route path="/#/blogs" render={() => <BlogRoute title={this.state.blogs.title} subTitle={this.state.blogs.subTitle} />} />
+            <Route path="/#/patreon" render={() => <PatreonPage title={this.state.patreon.title} subTitle={this.state.patreon.subTitle} />} />
+            <Route path="/#/contact" render={() => <ContactPage title={this.state.contact.title} subTitle={this.state.contact.subTitle} />} />
             <Route render={() =>  <NotFound />} />
           </Switch>
           
