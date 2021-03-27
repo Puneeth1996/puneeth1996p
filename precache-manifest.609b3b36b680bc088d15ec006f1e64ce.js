@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30d3caaa5f2b04f6fa4220cef74e768b",
+    "revision": "26d1ce0d4ee2c9a63ea63b9bc54ff265",
     "url": "/puneeth1996p/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puneeth1996p/static/css/2.a5f06b7f.chunk.css"
   },
   {
-    "revision": "1421a12c3010382867e4",
+    "revision": "0d90bdfa54aa117888e1",
     "url": "/puneeth1996p/static/css/main.34c96fd3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/puneeth1996p/static/js/2.243de449.chunk.js"
   },
   {
-    "revision": "1421a12c3010382867e4",
-    "url": "/puneeth1996p/static/js/main.b2d86f4a.chunk.js"
+    "revision": "0d90bdfa54aa117888e1",
+    "url": "/puneeth1996p/static/js/main.333c6871.chunk.js"
   },
   {
     "revision": "28d399bbf476f268d9a8",
