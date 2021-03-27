@@ -1,7 +1,12 @@
 
 ## Blog Section Designing
 
+Create a separate json file to load the data from.
 
+- 1st Make the blog card and proper layout
+- 2nd On the outer card make sure to display the time of read, publish date, blog author, category, link to blog
+- Third item
+- Fourth item
 ---
 ---
 ---
