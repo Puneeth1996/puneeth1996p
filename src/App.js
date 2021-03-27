@@ -59,7 +59,7 @@ class App extends React.Component {
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>
-              <a href="/"   style={{"color": "#00000080", "textDecoration": "none"}} ><DiReact color="#61dafb" className="react-icon" />{this.state.title}</a>
+              <Link href="/"   style={{"color": "#00000080", "textDecoration": "none"}} ><DiReact color="#61dafb" className="react-icon" />{this.state.title}</Link>
             </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
