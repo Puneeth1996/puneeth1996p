@@ -1,11 +1,23 @@
 [
     {
-        "blog_id" : "This is.  blog_id  .text file.",
-        "card_image" : "This is.card_image    .text file.",
-        "card_heading" : "This is.  card_heading  .text file.",
-        "blog_type" : "This is.blog_type    .text file.",
-        "card_description" : "This is.card_description    .text file.",
-        "blog_info" : "This is.blog_info    .text file.",
-        "date_added" : "This is. date_added   .text file.",
+        "blog_id": "132",
+        "card_image" : "contactme",
+        "card_img_alt_msg" :  "contactme",
+        "card_heading" : "First Card Heading",
+        "blog_type" : "Inspirational",
+        "card_description" : "Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "blog_info" : "The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+        "date_added" : "28-03-2021 11:30am"
+    },
+    {
+        "blog_id": "133",
+        "card_image" : "../assets/images/contactme.jpg",
+        "card_img_alt_msg" :  "../assets/images/contactme.jpg",
+        "card_heading" : "2nd Card Harding",
+        "blog_type" : "Tech & Dev",
+        "card_description" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+        "blog_info" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'",
+        "date_added" : "28-03-2021 11:30am"
     }
+    
 ]

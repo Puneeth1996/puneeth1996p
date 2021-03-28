@@ -6,6 +6,9 @@ import { CardColumns, Card, Pagination , Form, FormControl, Button  } from 'reac
 
 import blogs from '../data/blogs.json'
 
+
+
+
 export default class BlogsPage extends Component {
     state = {
         loading: true,
@@ -81,7 +84,7 @@ export default class BlogsPage extends Component {
                                 <>
                                     <div key={idx} >
                                         <Card>
-                                            <Card.Img variant="top" src={blog.card_image} />
+                                            <Card.Img variant="top" src={blog.card_image}/>
                                             <Card.Body>
                                                 <Card.Title>{blog.card_heading}</Card.Title>
                                                 <Card.Subtitle className="mb-2 text-muted">{blog.blog_type}</Card.Subtitle>
@@ -89,8 +92,8 @@ export default class BlogsPage extends Component {
                                                     {blog.card_description}
                                                 </Card.Text>
                                                 <Link to={`/blogs/${blog.blog_id}`}>Read it Completly</Link>
-                                                <br/>
-                                                <Link to={`/patreon`}>Patreon</Link>
+                                                {/* <br/> */}
+                                                {/* <Link to={`/patreon`}>Patreon</Link> */}
                                             </Card.Body>
                                             <Card.Footer>
                                                 <small className="text-muted">{blog.date_added}</small>
