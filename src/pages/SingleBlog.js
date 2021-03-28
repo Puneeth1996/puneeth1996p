@@ -4,42 +4,47 @@ import NotFound from './NotFound'
 import axios from 'axios'
 
 
+import blogs from '../data/blogs.json'
+
+
 export default class SingleBlog extends Component {
     constructor(props) {
         super(props)
     
         this.state = {
-            blogData: [],
-            successMessage: ''
+            blogData: {},
+            successMessage: '',
         }
     }
     
-    componentDidMount = async () => {
-        this.getData()
+    componentDidMount = () => {
+        // this.getData()
+        let filter_dict = blogs.filter(obj => obj['blog_id']===this.props.match.params.string)
+        this.setState({ blogData: filter_dict[0], successMessage: 'True' });
     }
     
-    getData = async () => {
+    // getData = async () => {
 
-        const form = new FormData()
-        form.set('blog_id', this.props.match.params.string)
-        const response = await axios.post('http://thepuneeth1996p.tech/restAPIa/blog/readOne.php', form, {
-            headers: { 'Content-Type': 'multipart/form-data' },
-        })
-        if(response.data){
-            this.setState({
-                blogData: response.data.Blog_data_single,
-                successMessage: 'True'
-            })
-        }
-        else {
-            this.setState({
-                blogData: [],
-                successMessage: 'False'
-            })
-        }
-    }
+    //     const form = new FormData()
+    //     form.set('blog_id', this.props.match.params.string)
+    //     const response = await axios.post('http://thepuneeth1996p.tech/restAPIa/blog/readOne.php', form, {
+    //         headers: { 'Content-Type': 'multipart/form-data' },
+    //     })
+    //     if(response.data){
+    //         this.setState({
+    //             blogData: response.data.Blog_data_single,
+    //             successMessage: 'True'
+    //         })
+    //     }
+    //     else {
+    //         this.setState({
+    //             blogData: [],
+    //             successMessage: 'False'
+    //         })
+    //     }
+    // }
     render() {
-        console.log(this.state.blogData)
+        console.log(this.state)
         return (
             <div>
 

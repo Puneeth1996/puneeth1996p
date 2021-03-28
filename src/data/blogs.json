@@ -1,7 +1,7 @@
 [
     {
         "blog_id": "132",
-        "card_image" : "contactme",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -10,8 +10,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "13562",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -20,8 +20,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "133332",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -30,8 +30,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "131112",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -40,8 +40,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "1302",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -50,8 +50,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "131392",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -60,8 +60,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "132232",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -70,8 +70,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "132",
-        "card_image" : "contactme",
+        "blog_id": "1324455645",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.png",
         "card_img_alt_msg" :  "contactme",
         "card_heading" : "First Card Heading",
         "blog_type" : "Inspirational",
@@ -80,8 +80,8 @@
         "date_added" : "28-03-2021 11:30am"
     },
     {
-        "blog_id": "133",
-        "card_image" : "../assets/images/contactme.jpg",
+        "blog_id": "1343",
+        "card_image" : "https://res.cloudinary.com/springboard-images/image/upload/q_auto,f_auto,fl_lossy/wordpress/2018/06/Blog-ux-portfolio.pngassets/images/contactme.jpg",
         "card_img_alt_msg" :  "../assets/images/contactme.jpg",
         "card_heading" : "2nd Card Harding",
         "blog_type" : "Tech & Dev",
