@@ -1,5 +1,11 @@
 [
     {
-        "Hello" : "This is from the blogs.json text file."
+        "blog_id" : "This is |   blog_id   | text file.",
+        "card_image" : "This is | card_image     | text file.",
+        "card_heading" : "This is |   card_heading   | text file.",
+        "blog_type" : "This is | blog_type     | text file.",
+        "card_description" : "This is | card_description     | text file.",
+        "blog_info" : "This is | blog_info     | text file.",
+        "date_added" : "This is |  date_added    | text file.",
     }
 ]

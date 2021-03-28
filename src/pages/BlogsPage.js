@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import { CardColumns, Card, Pagination , Form, FormControl, Button  } from 'react-bootstrap'
 
+
 export default class BlogsPage extends Component {
     state = {
         loading: true,
@@ -19,13 +20,15 @@ export default class BlogsPage extends Component {
         this.setState({pgNumber});
     }
 
-    async componentDidMount() {
+    componentDidMount() {
         // const url = "http://thepuneeth1996p.tech/restAPIa/blog/readAll.php";
         // const response = await fetch(url);
-        const response = await fetch("../data/blogs.json")
-        const data = await response.json();
-        console.log(data)
+        const response =  fetch("../data/blogs.json");
+        const data =  response.json();
+        console.log(data);
         this.setState({ blogs: data.Blogs_data, loading: false });
+
+
     }
 
 
