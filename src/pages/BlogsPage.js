@@ -7,7 +7,7 @@ import { CardColumns, Card, Pagination , Form, FormControl, Button  } from 'reac
 
 export default class BlogsPage extends Component {
     state = {
-        loading: true,
+        loading: false,
         blogs: [],
         pgNumber: 1,
         search: "",
@@ -20,12 +20,12 @@ export default class BlogsPage extends Component {
         this.setState({pgNumber});
     }
 
-    async componentDidMount() {
-        const url = "http://thepuneeth1996p.tech/restAPIa/blog/readAll.php";
-        const response = await fetch(url);
-        const data = await response.json();
-        this.setState({ blogs: data.Blogs_data, loading: false });
-    }
+    // async componentDidMount() {
+    //     const url = "http://thepuneeth1996p.tech/restAPIa/blog/readAll.php";
+    //     const response = await fetch(url);
+    //     const data = await response.json();
+    //     this.setState({ blogs: data.Blogs_data, loading: false });
+    // }
 
 
     updateSearch = (evt) => {
