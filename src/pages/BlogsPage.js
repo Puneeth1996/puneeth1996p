@@ -50,7 +50,7 @@ export default class BlogsPage extends Component {
             return blog.card_heading.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
         } )
         
-        let numItemsPerPage = 4; 
+        let numItemsPerPage = 6; 
         let active = this.state.pgNumber;
         let blogs = [];
         let totalPages = Math.ceil(filteredItmes.length/numItemsPerPage);
@@ -79,10 +79,10 @@ export default class BlogsPage extends Component {
                     ( 
                         
                         <>
-                        <CardColumns style={{marginLeft: '5vw', marginRight: '1vw'}} >
+                        <CardColumns style={{ margin: '5vw' }} >
                             {blog_resultItems.map( (blog, idx) => (
                                 <>
-                                    <div key={idx}   style={{ marginLeft: '10vw', marginBottom: '5vh', width: '100%' }} >
+                                    <div key={idx}   style={{ marginRight: '7vw', marginBottom: '2vh', width: '100%' }} >
                                         <Card >
                                             <Card.Img variant="top" src={blog.card_image}/>
                                             <Card.Body>

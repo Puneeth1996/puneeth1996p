@@ -44,7 +44,7 @@ export default class SingleBlog extends Component {
     //     }
     // }
     render() {
-        console.log(this.state)
+        // console.log(this.state)
         return (
             <div>
 
