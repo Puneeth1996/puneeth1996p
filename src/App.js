@@ -59,7 +59,8 @@ class App extends React.Component {
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>
-              <Link href="/"   style={{"color": "#00000080", "textDecoration": "none"}} ><DiReact color="#61dafb" className="react-icon" />{this.state.title}</Link>
+              {/* Should adjust the below <a> tag accordingly with respect to the HashRouter & Browser Router  */}
+              <a href="#/"   style={{"color": "#00000080", "textDecoration": "none"}} ><DiReact color="#61dafb" className="react-icon" />{this.state.title}</a>
             </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
