@@ -53,8 +53,8 @@ export default class SingleBlog extends Component {
                 (this.state.successMessage) ? 
                     <>
                         <h3 style={{ margin: "5vh 0 5vh 15vw" }}>{this.state.blogData.card_heading}</h3>
-                        <h5 style={{ margin: "0 0 5vh 15vw" }}>{this.state.blogData.card_description}</h5>
-                        <div dangerouslySetInnerHTML={{__html: this.state.blogData.blog_info}} style={{margin: "5vh 15vw 5vh 15vw"}} ></div>
+                        <h5 style={{ margin: "0 0 5vh 15vw"  }}>{this.state.blogData.card_description}</h5>
+                        <div dangerouslySetInnerHTML={{__html: this.state.blogData.blog_info}} style={{ margin: "5vh 15vw 5vh 15vw"  }} ></div>
                     </>
                     
                 :
