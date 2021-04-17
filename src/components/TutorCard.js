@@ -18,7 +18,7 @@ export default class TutorCard extends Component {
             <>
                 <div style={divStyle}>
                     <h3  style={{fontSize: "2.5vw", marginTop: '0.5vh',}}  >Complete Python Training</h3>
-                    <h3  style={{fontSize: "2.5vw", marginTop: '3vh',}}  >$100(2months duration, 30Hrs). In-person Online class</h3>
+                    <h3  style={{fontSize: "2.5vw", marginTop: '3vh',}}  >$200(4months duration, 60Hrs). In-person Online class</h3>
                     <div style={{fontSize: "1.75vw", marginTop: '5vh',}} >
                         Learn all the major topics in python starting from basic and all the way up to object oriented technique
                         <br />
@@ -30,7 +30,7 @@ export default class TutorCard extends Component {
                         <a href="mailto: puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com" target="_blank"  rel="noopener noreferrer"  style={{color: "black", "textDecoration": "none"}}  > <RiMailSendLine    style = {{ width : 25, height : 25 }}  /> Inquire </a>   
                     </Button>
                 </div>
-                <div style={divStyle}>
+                {/* <div style={divStyle}>
                     <h3  style={{fontSize: "2.5vw", marginTop: '0.5vh',}}  >Complete Python Training</h3>
                     <h3  style={{fontSize: "2.5vw", marginTop: '3vh',}}  >$100(2months duration, 30Hrs). In-person Online class</h3>
                     <div style={{fontSize: "1.75vw", marginTop: '5vh',}} >
@@ -57,7 +57,7 @@ export default class TutorCard extends Component {
                     <Button variant="info"     style = {{ margin:"3vh 0 0 0.5vw" }}  >
                         <a href="mailto: puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com" target="_blank"  rel="noopener noreferrer"  style={{color: "black", "textDecoration": "none"}}  > <RiMailSendLine    style = {{ width : 25, height : 25 }}  /> Inquire </a>   
                     </Button>
-                </div>
+                </div> */}
             </>
         )
     }
