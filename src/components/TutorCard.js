@@ -18,7 +18,7 @@ export default class TutorCard extends Component {
             <>
                 <div style={divStyle}>
                     <h3  style={{fontSize: "2.5vw", marginTop: '0.5vh',}}  >Complete Python Training</h3>
-                    <h3  style={{fontSize: "2.5vw", marginTop: '3vh',}}  >$200(4months duration, 60Hrs). In-person Online class</h3>
+                    <h3  style={{fontSize: "2.5vw", marginTop: '3vh',}}  >$200(4months duration, 60Hrs). Online class</h3>
                     <div style={{fontSize: "1.75vw", marginTop: '5vh',}} >
                         Learn all the major topics in python starting from basic and all the way up to object oriented technique
                         <br />
