@@ -15,6 +15,7 @@ import faceReco from '../assets/images/faceReco.png';
 import urlshortner from '../assets/images/urlshortner.png';
 import retailClub from '../assets/images/retailClub.png';
 import countdowntimmerJS from '../assets/images/countdowntimmerJS.png';
+import CrownClothingEcommApp from '../assets/images/CrownClothingEcommApp.png';
 
 
 export default class ProjectCard extends Component {
@@ -148,6 +149,15 @@ export default class ProjectCard extends Component {
                     link: 'https://count-down-timmer.netlify.app/',
                     feature: ['Vanilla JS', 'HTML', 'Bootstrap'],
                     dataAdded: 'Made on Oct 2020'
+                },
+                {
+                    id: 13,
+                    title: 'Ecommerece App | Crown Clothing ',
+                    subTitle: 'React Project, learning project to build a fully funcitoning Ecomm, integrated strip test payment service.',
+                    imgSrc: CrownClothingEcommApp,
+                    link: 'https://live-crown-clothing-in.herokuapp.com/',
+                    feature: ['Reactjs', 'Redux', 'Firebase', 'Stripe'],
+                    dataAdded: 'Made on April 30th 2021'
                 },
             ],
             pageNumber: 1,
