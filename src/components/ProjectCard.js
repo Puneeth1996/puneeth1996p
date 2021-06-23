@@ -16,6 +16,7 @@ import urlshortner from '../assets/images/urlshortner.png';
 import retailClub from '../assets/images/retailClub.png';
 import countdowntimmerJS from '../assets/images/countdowntimmerJS.png';
 import CrownClothingEcommApp from '../assets/images/CrownClothingEcommApp.png';
+import EmailyMernApp from '../assets/images/EmailyMernApp.jpeg';
 
 
 export default class ProjectCard extends Component {
@@ -158,6 +159,15 @@ export default class ProjectCard extends Component {
                     link: 'https://live-crown-clothing-in.herokuapp.com/',
                     feature: ['Reactjs', 'Redux', 'Firebase', 'Stripe'],
                     dataAdded: 'Made on April 30th 2021'
+                },
+                {
+                    id: 14,
+                    title: 'Emaily | Feed-back survery app ',
+                    subTitle: 'A mern stack project, with integreation of Google OAuth2.0, sendGrid emailing, Stripe, mongodb, hosted on heroku. A full stack MERN project.',
+                    imgSrc: EmailyMernApp,
+                    link: 'http://afternoon-thicket-82091.herokuapp.com/',
+                    feature: ['Reactjs', 'Redux', 'MongoDB', 'Stripe', 'Express', 'Heroku', 'SendGrid'],
+                    dataAdded: 'Made on June 23rd 2021'
                 },
             ],
             pageNumber: 1,
