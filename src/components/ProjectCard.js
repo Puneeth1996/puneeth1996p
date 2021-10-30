@@ -18,6 +18,7 @@ import countdowntimmerJS from '../assets/images/countdowntimmerJS.png';
 import CrownClothingEcommApp from '../assets/images/CrownClothingEcommApp.png';
 import EmailyMernApp from '../assets/images/EmailyMernApp.jpeg';
 import NotesAppScreen from '../assets/images/NotesAppScreen.png';
+import HangManScreen from '../assets/images/HangManScreen.png';
 
 
 
@@ -179,6 +180,15 @@ export default class ProjectCard extends Component {
                     link: 'https://notes-app-js-puneeth1996p.netlify.app/',
                     feature: ['Vanila JS'],
                     dataAdded: 'Made on October 14th 2021'
+                },
+                {
+                    id: 16,
+                    title: 'Hangman | Guess the word ',
+                    subTitle: 'A puzzle game, where you can guess a word with limited number of tries. A fun refreshing game to discover words in daily life.',
+                    imgSrc: HangManScreen,
+                    link: 'https://hangman-puneeth1996p.netlify.app/',
+                    feature: ['Vanila JS'],
+                    dataAdded: 'Made on October 23th 2021'
                 },
             ],
             pageNumber: 1,
