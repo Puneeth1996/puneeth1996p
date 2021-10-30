@@ -19,6 +19,7 @@ import CrownClothingEcommApp from '../assets/images/CrownClothingEcommApp.png';
 import EmailyMernApp from '../assets/images/EmailyMernApp.jpeg';
 import NotesAppScreen from '../assets/images/NotesAppScreen.png';
 import HangManScreen from '../assets/images/HangManScreen.png';
+import TodoAppScreenShot from '../assets/images/TodoAppScreenShot.png';
 
 
 
@@ -83,7 +84,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Jan 2019'
                 },
                 {
-                    id: 5,
+                    id: 6,
                     title: 'Guest List',
                     subTitle: 'A CRUD app with React',
                     imgSrc: guestList,
@@ -92,7 +93,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on October 2018'
                 },
                 {
-                    id: 6,
+                    id: 7,
                     title: 'React Weather Map',
                     subTitle: 'React Weather Map with api for any given country and state',
                     imgSrc: reactWeatherApp,
@@ -101,7 +102,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Dec 2018'
                 },
                 {
-                    id: 7,
+                    id: 8,
                     title: 'React Todo Project And User Planner App',
                     subTitle: 'React Weather Map with api for any given country and state',
                     imgSrc: userTodo,
@@ -110,7 +111,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Feb 2019'
                 },
                 {
-                    id: 8,
+                    id: 9,
                     title: 'Robot Friends - Contact Diary | React App',
                     subTitle: 'React App that can be used to store all the contact.',
                     imgSrc: roboFriends,
@@ -119,7 +120,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Feb 2020'
                 },
                 {
-                    id: 9,
+                    id: 10,
                     title: 'Face Recognization React App',
                     subTitle: 'React Project with Clarify API For Face Recognization.',
                     imgSrc: faceReco,
@@ -128,7 +129,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Mar 2020'
                 },
                 {
-                    id: 10,
+                    id: 11,
                     title: 'URL Shortner As Service - MERN App',
                     subTitle: 'React Project with simple Node Express Server Connected to MongoDB Atlas Cloud DB.',
                     imgSrc: urlshortner,
@@ -137,7 +138,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Apr 2020'
                 },
                 {
-                    id: 11,
+                    id: 12,
                     title: 'Retail CLub Ecom Website',
                     subTitle: 'Another Ecom Project Made PHP Stack and Mysql.',
                     imgSrc: retailClub,
@@ -146,7 +147,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Sept 2020'
                 },
                 {
-                    id: 12,
+                    id: 13,
                     title: 'Count Down Timer - Vanilla JS',
                     subTitle: 'A Simple JS build of Count Down Timmer.',
                     imgSrc: countdowntimmerJS,
@@ -155,7 +156,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on Oct 2020'
                 },
                 {
-                    id: 13,
+                    id: 14,
                     title: 'Ecommerece App | Crown Clothing ',
                     subTitle: 'React Project, learning project to build a fully funcitoning Ecomm, integrated strip test payment service.',
                     imgSrc: CrownClothingEcommApp,
@@ -164,7 +165,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on April 30th 2021'
                 },
                 {
-                    id: 14,
+                    id: 15,
                     title: 'Emaily | Feed-back survery app ',
                     subTitle: 'A mern stack project, with integreation of Google OAuth2.0, sendGrid emailing, Stripe, mongodb, hosted on heroku. A full stack MERN project.',
                     imgSrc: EmailyMernApp,
@@ -173,7 +174,7 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on June 23rd 2021'
                 },
                 {
-                    id: 15,
+                    id: 16,
                     title: 'Notes App | Take notes on the fly ',
                     subTitle: 'A simple notes taking app with local storage being used to store data, create title and write your content, remove it anytime by navigating to the edit page.',
                     imgSrc: NotesAppScreen,
@@ -182,13 +183,22 @@ export default class ProjectCard extends Component {
                     dataAdded: 'Made on October 14th 2021'
                 },
                 {
-                    id: 16,
+                    id: 17,
                     title: 'Hangman | Guess the word ',
                     subTitle: 'A puzzle game, where you can guess a word with limited number of tries. A fun refreshing game to discover words in daily life.',
                     imgSrc: HangManScreen,
                     link: 'https://hangman-puneeth1996p.netlify.app/',
                     feature: ['Vanila JS'],
                     dataAdded: 'Made on October 23th 2021'
+                },
+                {
+                    id: 18,
+                    title: 'Todo App ',
+                    subTitle: 'Todo App for daily tasks solver/remainder.',
+                    imgSrc: TodoAppScreenShot,
+                    link: 'https://todo-app-puneeth1996p.netlify.app/',
+                    feature: ['Vanila JS'],
+                    dataAdded: 'Made on October 30th 2021'
                 },
             ],
             pageNumber: 1,
