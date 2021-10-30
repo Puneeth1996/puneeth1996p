@@ -17,6 +17,8 @@ import retailClub from '../assets/images/retailClub.png';
 import countdowntimmerJS from '../assets/images/countdowntimmerJS.png';
 import CrownClothingEcommApp from '../assets/images/CrownClothingEcommApp.png';
 import EmailyMernApp from '../assets/images/EmailyMernApp.jpeg';
+import NotesAppScreen from '../assets/images/NotesAppScreen.png';
+
 
 
 export default class ProjectCard extends Component {
@@ -168,6 +170,15 @@ export default class ProjectCard extends Component {
                     link: 'http://afternoon-thicket-82091.herokuapp.com/',
                     feature: ['Reactjs', 'Redux', 'MongoDB', 'Stripe', 'Express', 'Heroku', 'SendGrid'],
                     dataAdded: 'Made on June 23rd 2021'
+                },
+                {
+                    id: 15,
+                    title: 'Notes App | Take notes on the fly ',
+                    subTitle: 'A simple notes taking app with local storage being used to store data, create title and write your content, remove it anytime by navigating to the edit page.',
+                    imgSrc: NotesAppScreen,
+                    link: 'https://notes-app-js-puneeth1996p.netlify.app/',
+                    feature: ['Vanila JS'],
+                    dataAdded: 'Made on October 14th 2021'
                 },
             ],
             pageNumber: 1,
