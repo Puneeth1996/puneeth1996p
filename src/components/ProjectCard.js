@@ -264,7 +264,7 @@ export default class ProjectCard extends Component {
                     ))}
 
                 </CardColumns>
-                <Pagination style={{marginLeft: '5vw', marginRight: '5vw'}} size="lg" onClick={this.pageChanged}>{items}</Pagination>
+                <Pagination style={{marginLeft: '5vw', marginRight: '5vw'}} size="md" onClick={this.pageChanged}>{items}</Pagination>
             </>
         )
     }
