@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Button from 'react-bootstrap/Button';
-import { RiMailSendLine  } from 'react-icons/ri';
+import { RiMailSendLine } from 'react-icons/ri';
+import { FaFileDownload } from 'react-icons/fa';
+import samplePDF from '../assets/pdf/sample.pdf';
 
 export default class TutorCard extends Component {
     render() {
@@ -27,7 +29,10 @@ export default class TutorCard extends Component {
                         Hope to see you in this amazing course, its a data driven world and python is the exact vehicle that you should choose to go about solving large scale data driven problems.
                     </div>
                     <Button variant="info"     style = {{ margin:"3vh 0 0 0.5vw" }}  >
-                        <a href="mailto: puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com" target="_blank"  rel="noopener noreferrer"  style={{color: "black", "textDecoration": "none"}}  > <RiMailSendLine    style = {{ width : 25, height : 25 }}  /> Inquire </a>   
+                        <a href={samplePDF} target="_blank"  rel="noopener noreferrer" download style={{color: "black", "textDecoration": "none"}}  > <FaFileDownload    style = {{ width : 25, height : 25 }}  />{' '}Curriculum{' '}</a>   
+                    </Button>
+                    <Button variant="success"     style = {{ margin:"3vh 0 0 0.5vw" }}  >
+                        <a href="mailto: puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com" target="_blank"  rel="noopener noreferrer"  style={{color: "black", "textDecoration": "none"}}  > <RiMailSendLine    style = {{ width : 25, height : 25 }}  />{' '}Inquire{' '}</a>   
                     </Button>
                 </div>
                 {/* <div style={divStyle}>
