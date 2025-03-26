@@ -1,3 +1,13 @@
 Things to do 
 
 [Done on 24 July 2022] - make the download for course circullum feature 
+
+
+
+
+
+Setup Notes
+
+- Clone the repository 
+- Do yarn install and yarn to install and update the package dependencies
+- yarn build and yarn deploy to relase 

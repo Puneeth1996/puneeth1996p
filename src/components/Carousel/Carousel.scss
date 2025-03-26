@@ -1,0 +1,20 @@
+.g-card-info {
+	position: absolute;
+	transform: translate(30%, -100%) !important;
+	color: cornflowerblue;
+}
+
+.carousel-container {
+	display: flex;
+	justify-content: space-around;
+}
+// sm	≥576px
+// Medium	md	≥768px
+// Large	lg	≥992px
+// Extra large	xl	≥1200px
+
+@media only screen and (max-width: 992px) {
+	.carousel-container {
+		display: block;
+	}
+}

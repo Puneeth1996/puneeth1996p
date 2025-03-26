@@ -1,16 +1,14 @@
-import React from 'react';
-import Hero from '../components/Hero';
-import ProjectCard from '../components/ProjectCard'
+import React from 'react'
+import Hero from '../components/Hero'
+import ProjectCard from '../components/ProjectCard/ProjectCard'
 
 function ProjectsPage(props) {
-
-    return(
-        <div>
-            <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
-            <ProjectCard />
-        </div>
-    );
-
+	return (
+		<div>
+			<Hero title={props.title} subTitle={props.subTitle} text={props.text} />
+			<ProjectCard />
+		</div>
+	)
 }
 
-export default ProjectsPage;
+export default ProjectsPage
