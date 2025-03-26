@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/puneeth1996p/static/css/main.32262127.css",
-    "main.js": "/puneeth1996p/static/js/main.fcf15431.js",
+    "main.css": "/puneeth1996p/static/css/main.b2a6a9c6.css",
+    "main.js": "/puneeth1996p/static/js/main.62c4a34b.js",
     "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.9e7518d5c162de9012cc.jpg",
     "static/media/CrownClothingEcommApp.png": "/puneeth1996p/static/media/CrownClothingEcommApp.386f074fd848e1117cf3.png",
     "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.0b4f7ffe74cf696893f6.jpg",
@@ -26,11 +26,11 @@
     "static/media/userTodo.png": "/puneeth1996p/static/media/userTodo.58dec0783ff0e46bd012.png",
     "static/media/sample.pdf": "/puneeth1996p/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/puneeth1996p/index.html",
-    "main.32262127.css.map": "/puneeth1996p/static/css/main.32262127.css.map",
-    "main.fcf15431.js.map": "/puneeth1996p/static/js/main.fcf15431.js.map"
+    "main.b2a6a9c6.css.map": "/puneeth1996p/static/css/main.b2a6a9c6.css.map",
+    "main.62c4a34b.js.map": "/puneeth1996p/static/js/main.62c4a34b.js.map"
   },
   "entrypoints": [
-    "static/css/main.32262127.css",
-    "static/js/main.fcf15431.js"
+    "static/css/main.b2a6a9c6.css",
+    "static/js/main.62c4a34b.js"
   ]
 }
