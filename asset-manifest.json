@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puneeth1996p/static/css/main.b2a6a9c6.css",
-    "main.js": "/puneeth1996p/static/js/main.62c4a34b.js",
+    "main.js": "/puneeth1996p/static/js/main.3a021e97.js",
     "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.9e7518d5c162de9012cc.jpg",
     "static/media/CrownClothingEcommApp.png": "/puneeth1996p/static/media/CrownClothingEcommApp.386f074fd848e1117cf3.png",
     "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.0b4f7ffe74cf696893f6.jpg",
@@ -13,6 +13,7 @@
     "static/media/dronemakers.png": "/puneeth1996p/static/media/dronemakers.d8f41d7cceeebe962be2.png",
     "static/media/techStoreEcom.png": "/puneeth1996p/static/media/techStoreEcom.abdb1a5b1ec1b59dceef.png",
     "static/media/city-tours-planner.png": "/puneeth1996p/static/media/city-tours-planner.2eb7bd480f3cc85acb6b.png",
+    "static/media/Proshop.png": "/puneeth1996p/static/media/Proshop.1129bf389cacb5cf35fa.png",
     "static/media/mealPlanner.png": "/puneeth1996p/static/media/mealPlanner.e6ae627ff8568a7eee6c.png",
     "static/media/NotesAppScreen.png": "/puneeth1996p/static/media/NotesAppScreen.76b8210fea93d60c6192.png",
     "static/media/EmailyMernApp.jpeg": "/puneeth1996p/static/media/EmailyMernApp.c9de803ae063b0b35756.jpeg",
@@ -27,10 +28,10 @@
     "static/media/sample.pdf": "/puneeth1996p/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/puneeth1996p/index.html",
     "main.b2a6a9c6.css.map": "/puneeth1996p/static/css/main.b2a6a9c6.css.map",
-    "main.62c4a34b.js.map": "/puneeth1996p/static/js/main.62c4a34b.js.map"
+    "main.3a021e97.js.map": "/puneeth1996p/static/js/main.3a021e97.js.map"
   },
   "entrypoints": [
     "static/css/main.b2a6a9c6.css",
-    "static/js/main.62c4a34b.js"
+    "static/js/main.3a021e97.js"
   ]
 }
