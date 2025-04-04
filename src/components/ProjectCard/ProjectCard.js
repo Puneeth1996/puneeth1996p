@@ -21,6 +21,7 @@ import EmailyMernApp from '../../assets/images/EmailyMernApp.jpeg'
 import NotesAppScreen from '../../assets/images/NotesAppScreen.png'
 import HangManScreen from '../../assets/images/HangManScreen.png'
 import TodoAppScreenShot from '../../assets/images/TodoAppScreenShot.png'
+import Proshop from '../../assets/images/Proshop.png'
 
 export default class ProjectCard extends Component {
 	constructor(props) {
@@ -230,6 +231,17 @@ export default class ProjectCard extends Component {
 					link: 'https://todo-app-puneeth1996p.netlify.app/',
 					feature: ['Vanila JS'],
 					dataAdded: 'Made on October 30th 2021',
+				},
+				{
+					id: 19,
+					title:
+						'ProShop Ecommerce Mern Stack Project - Vercel Deployment of BE + FE',
+					subTitle:
+						'Deployed in MERN stack with Paypal and full extensible Ecommerce functionalities ',
+					imgSrc: Proshop,
+					link: 'https://proshop-mern-frontend.vercel.app/',
+					feature: ['MERN'],
+					dataAdded: 'Made on April 04th 2025',
 				},
 			],
 			pageNumber: 1,
