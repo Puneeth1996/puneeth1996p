@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puneeth1996p/static/css/main.b2a6a9c6.css",
-    "main.js": "/puneeth1996p/static/js/main.3a021e97.js",
+    "main.js": "/puneeth1996p/static/js/main.41347704.js",
     "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.9e7518d5c162de9012cc.jpg",
     "static/media/CrownClothingEcommApp.png": "/puneeth1996p/static/media/CrownClothingEcommApp.386f074fd848e1117cf3.png",
     "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.0b4f7ffe74cf696893f6.jpg",
@@ -28,10 +28,10 @@
     "static/media/sample.pdf": "/puneeth1996p/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/puneeth1996p/index.html",
     "main.b2a6a9c6.css.map": "/puneeth1996p/static/css/main.b2a6a9c6.css.map",
-    "main.3a021e97.js.map": "/puneeth1996p/static/js/main.3a021e97.js.map"
+    "main.41347704.js.map": "/puneeth1996p/static/js/main.41347704.js.map"
   },
   "entrypoints": [
     "static/css/main.b2a6a9c6.css",
-    "static/js/main.3a021e97.js"
+    "static/js/main.41347704.js"
   ]
 }
