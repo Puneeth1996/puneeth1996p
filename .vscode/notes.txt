@@ -16,3 +16,8 @@ Setup Notes
 
 
 [04 May 2025] - Update contact page and tutor page
+
+[05 May 2025] 
+- Removed footer info with google facebook twitter
+- Compressed images for mainly having the faster load time
+on first time load when all the images are loaded for the very first time
