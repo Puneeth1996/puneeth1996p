@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/puneeth1996p/static/css/main.b2a6a9c6.css",
-    "main.js": "/puneeth1996p/static/js/main.7c7b67bc.js",
-    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.9e7518d5c162de9012cc.jpg",
+    "main.js": "/puneeth1996p/static/js/main.c468ac8d.js",
     "static/media/CrownClothingEcommApp.png": "/puneeth1996p/static/media/CrownClothingEcommApp.386f074fd848e1117cf3.png",
-    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.0b4f7ffe74cf696893f6.jpg",
+    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.4f544b990e73ef3fe201.jpg",
     "static/media/faceReco.png": "/puneeth1996p/static/media/faceReco.cd16ca0d1814f5878543.png",
     "static/media/retailClub.png": "/puneeth1996p/static/media/retailClub.af790caee9c1f3505c4f.png",
-    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.930734d0c057b51577f6.jpg",
+    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.0b339e23b87a4eed9cc6.jpg",
+    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.3359a2d95e7ec8f25dcf.jpg",
     "static/media/roboFriends.png": "/puneeth1996p/static/media/roboFriends.e947e2b9285125949b2a.png",
     "static/media/eporiumusa.png": "/puneeth1996p/static/media/eporiumusa.19c1023838cb859f4e38.png",
     "static/media/dronemakers.png": "/puneeth1996p/static/media/dronemakers.d8f41d7cceeebe962be2.png",
@@ -28,10 +28,10 @@
     "static/media/sample.pdf": "/puneeth1996p/static/media/sample.ac0398d4ca249e568588.pdf",
     "index.html": "/puneeth1996p/index.html",
     "main.b2a6a9c6.css.map": "/puneeth1996p/static/css/main.b2a6a9c6.css.map",
-    "main.7c7b67bc.js.map": "/puneeth1996p/static/js/main.7c7b67bc.js.map"
+    "main.c468ac8d.js.map": "/puneeth1996p/static/js/main.c468ac8d.js.map"
   },
   "entrypoints": [
     "static/css/main.b2a6a9c6.css",
-    "static/js/main.7c7b67bc.js"
+    "static/js/main.c468ac8d.js"
   ]
 }
