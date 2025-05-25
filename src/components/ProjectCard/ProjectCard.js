@@ -286,7 +286,7 @@ export default class ProjectCard extends Component {
 		)
 		return (
 			<>
-				<Form inline style={{ margin: '0 0 10vh 25vw' }}>
+				<Form inline style={{ margin: '0 0 8vh 24vw' }}>
 					<FormControl
 						type='text'
 						placeholder='Search'

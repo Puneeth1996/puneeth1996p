@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../components/Hero'
-import TutorCard from '../components/TutorCard'
+import TutorCard from '../components/TutorCard/TutorCard'
 import { Link } from 'react-router-dom'
 function TrainingPage(props) {
 	return (

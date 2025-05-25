@@ -21,3 +21,4 @@ Setup Notes
 - Removed footer info with google facebook twitter
 - Compressed images for mainly having the faster load time
 on first time load when all the images are loaded for the very first time
+- Updated the training page with downloadable pdf content

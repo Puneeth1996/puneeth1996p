@@ -105,7 +105,7 @@ class App extends React.Component {
 									Projects
 								</Link>
 								<Link className='nav-link' to='/trainings'>
-									My Trainings
+									Trainings
 								</Link>
 								<Link className='nav-link' to='/blogs'>
 									Blogs
