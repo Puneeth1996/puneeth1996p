@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/puneeth1996p/static/css/main.b2a6a9c6.css",
-    "main.js": "/puneeth1996p/static/js/main.60653aeb.js",
+    "main.css": "/puneeth1996p/static/css/main.fb9f5a3a.css",
+    "main.js": "/puneeth1996p/static/js/main.0bb155f6.js",
     "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.177b1a07168f9f8873cb.jpg",
     "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.b584369fd4e4a517a178.jpg",
     "static/media/projects.jpg": "/puneeth1996p/static/media/projects.67b41e62a64dfb6af456.jpg",
@@ -23,13 +23,16 @@
     "static/media/countdowntimmerJS.jpg": "/puneeth1996p/static/media/countdowntimmerJS.fa162e4728d38166f0ba.jpg",
     "static/media/mini-chat-app.jpg": "/puneeth1996p/static/media/mini-chat-app.453b3a752046fdc9e085.jpg",
     "static/media/HangManScreen.jpg": "/puneeth1996p/static/media/HangManScreen.20cee59a727580da40d6.jpg",
-    "static/media/sample.pdf": "/puneeth1996p/static/media/sample.ac0398d4ca249e568588.pdf",
+    "static/media/typescript_react_training.pdf": "/puneeth1996p/static/media/typescript_react_training.5847918dd09eb0df4793.pdf",
+    "static/media/dsa_training.pdf": "/puneeth1996p/static/media/dsa_training.fde8d5b73fd351adab12.pdf",
+    "static/media/full_stack_mern_training.pdf": "/puneeth1996p/static/media/full_stack_mern_training.0bb338b8cb29c56da57a.pdf",
+    "static/media/complete_python_training.pdf": "/puneeth1996p/static/media/complete_python_training.f824a8cd5ebfd3e2d2b8.pdf",
     "index.html": "/puneeth1996p/index.html",
-    "main.b2a6a9c6.css.map": "/puneeth1996p/static/css/main.b2a6a9c6.css.map",
-    "main.60653aeb.js.map": "/puneeth1996p/static/js/main.60653aeb.js.map"
+    "main.fb9f5a3a.css.map": "/puneeth1996p/static/css/main.fb9f5a3a.css.map",
+    "main.0bb155f6.js.map": "/puneeth1996p/static/js/main.0bb155f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2a6a9c6.css",
-    "static/js/main.60653aeb.js"
+    "static/css/main.fb9f5a3a.css",
+    "static/js/main.0bb155f6.js"
   ]
 }
