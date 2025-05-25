@@ -1,15 +1,7 @@
 import React from 'react'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import {
-	FaInstagram,
-	FaLinkedinIn,
-	FaTwitter,
-	FaFacebookSquare,
-	FaGoogle,
-	FaGithub,
-	FaYoutube,
-} from 'react-icons/fa'
+import { FaInstagram, FaLinkedinIn, FaGithub, FaYoutube } from 'react-icons/fa'
 import './Footer.scss'
 
 function Footer() {
@@ -43,39 +35,6 @@ function Footer() {
 						>
 							{' '}
 							<FaLinkedinIn
-								style={{ width: 25, height: 25, marginRight: 15 }}
-							/>{' '}
-						</a>
-						<a
-							href='https://twitter.com/Puneeth1996p'
-							target='_blank'
-							rel='noopener noreferrer'
-							style={{ color: 'black', textDecoration: 'none' }}
-						>
-							{' '}
-							<FaTwitter
-								style={{ width: 25, height: 25, marginRight: 15 }}
-							/>{' '}
-						</a>
-						<a
-							href='https://www.facebook.com/puneeth1996p'
-							target='_blank'
-							rel='noopener noreferrer'
-							style={{ color: 'black', textDecoration: 'none' }}
-						>
-							{' '}
-							<FaFacebookSquare
-								style={{ width: 25, height: 25, marginRight: 15 }}
-							/>{' '}
-						</a>
-						<a
-							href='mailto: puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
-							target='_blank'
-							rel='noopener noreferrer'
-							style={{ color: 'black', textDecoration: 'none' }}
-						>
-							{' '}
-							<FaGoogle
 								style={{ width: 25, height: 25, marginRight: 15 }}
 							/>{' '}
 						</a>
