@@ -15,8 +15,7 @@ const TutorCard = () => {
 			<div className='tutor-card background1'>
 				<h3 className='heading'>Complete Python Training</h3>
 				<h3 className='heading'>
-					Rs 5,999 | 3 Months | 70 Hours | 6 Hours/Week | Flexible Schedule
-					(Weekends or Daily) | Online Classes
+					Rs 7,999 (2 months, ~ 60 hrs, 6 hrs/week). Online class
 				</h3>
 				<p className='description'>
 					Master Python from the fundamentals to advanced object-oriented
@@ -60,8 +59,7 @@ const TutorCard = () => {
 					TypeScript + React JS Frontend Web Development Training
 				</h3>
 				<h3 className='heading'>
-					Rs 7,999 | 4 Months | 100 Hours | 6 Hours/Week | Flexible Schedule
-					(Weekends or Daily) | Online Classes
+					Rs 7,999 (2 months, ~ 60 hrs, 6 hrs/week). Online class
 				</h3>
 				<p className='description'>
 					Master professional frontend development by learning key technologies
@@ -106,8 +104,7 @@ const TutorCard = () => {
 			<div className='tutor-card background3'>
 				<h3 className='heading'>Full Stack MERN Development Training</h3>
 				<h3 className='heading'>
-					Rs 9,999 (5 months, 120 hrs, 6 hrs/week, weekends or daily). Online
-					class
+					Rs 11,999 (3 months, ~ 120 hrs, 8 hrs/week). Online class
 				</h3>
 				<p className='description'>
 					Master full stack development using MongoDB, Express.js, React, and
@@ -149,8 +146,7 @@ const TutorCard = () => {
 			<div className='tutor-card background-dsa'>
 				<h3 className='heading'>Data Structures and Algorithms Training</h3>
 				<h3 className='heading'>
-					Rs 11,999 (4 months, 90 hrs, 6 hrs/week, weekends or daily). Online
-					class
+					Rs 11,999 (3 months, ~ 120 hrs, 8 hrs/week). Online class
 				</h3>
 				<p className='description'>
 					Master essential data structures including arrays, linked lists,
@@ -168,12 +164,6 @@ const TutorCard = () => {
 					Gain hands-on experience with extensive coding challenges, timed mock
 					interviews, and real-world problem-solving sessions modeled after
 					actual technical interviews.
-					<br />
-					Learn optimization techniques and best practices to write clean,
-					scalable, and high-performance code.
-					<br />
-					Prepare to confidently crack coding interviews with personalized
-					feedback and mentorship from industry experts.
 				</p>
 				<Button variant='info' className='btn-custom'>
 					<a

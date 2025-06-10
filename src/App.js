@@ -107,9 +107,10 @@ class App extends React.Component {
 								<Link className='nav-link' to='/trainings'>
 									Trainings
 								</Link>
-								<Link className='nav-link' to='/blogs'>
+								{/* June 10 2025 Hiding Blogs page as it not much work is being done here. */}
+								{/* <Link className='nav-link' to='/blogs'>
 									Blogs
-								</Link>
+								</Link> */}
 								{/* 26 Mar 2025 Hiding patreon page as it not a right fit for portfolio page */}
 								{/* <Link className='nav-link' to='/patreon'>
 									Patreon

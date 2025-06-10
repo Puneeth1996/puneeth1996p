@@ -17,17 +17,6 @@ function Footer() {
 						style={{ width: '100%' }}
 					>
 						<a
-							href='https://www.instagram.com/puneeth1996p/'
-							target='_blank'
-							rel='noopener noreferrer'
-							style={{ color: 'black', textDecoration: 'none' }}
-						>
-							{' '}
-							<FaInstagram
-								style={{ width: 25, height: 25, marginRight: 15 }}
-							/>{' '}
-						</a>
-						<a
 							href='https://www.linkedin.com/in/puneeth-p-861095146/'
 							target='_blank'
 							rel='noopener noreferrer'
