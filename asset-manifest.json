@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/puneeth1996p/static/css/main.fb9f5a3a.css",
-    "main.js": "/puneeth1996p/static/js/main.6b66378d.js",
+    "main.js": "/puneeth1996p/static/js/main.71a841e4.js",
     "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.177b1a07168f9f8873cb.jpg",
     "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.b584369fd4e4a517a178.jpg",
     "static/media/projects.jpg": "/puneeth1996p/static/media/projects.67b41e62a64dfb6af456.jpg",
@@ -13,7 +13,11 @@
     "static/media/NotesAppScreen.jpg": "/puneeth1996p/static/media/NotesAppScreen.cc2bf4af058a875ae437.jpg",
     "static/media/reactWeatherApp.jpg": "/puneeth1996p/static/media/reactWeatherApp.c6c7b06d36fd41465e0d.jpg",
     "static/media/dronemakers.jpg": "/puneeth1996p/static/media/dronemakers.648b4ced9ce37fff31fb.jpg",
+    "static/media/dsa_training.pdf": "/puneeth1996p/static/media/dsa_training.8c077e9d14ce70a44094.pdf",
+    "static/media/typescript_react_training.pdf": "/puneeth1996p/static/media/typescript_react_training.881156380d04341e9747.pdf",
+    "static/media/full_stack_mern_training.pdf": "/puneeth1996p/static/media/full_stack_mern_training.a419400662c3c4877c51.pdf",
     "static/media/eporiumusa.jpg": "/puneeth1996p/static/media/eporiumusa.7513a37e4de86890d51a.jpg",
+    "static/media/complete_python_training.pdf": "/puneeth1996p/static/media/complete_python_training.dbd40de2097acd92e561.pdf",
     "static/media/EmailyMernApp.jpg": "/puneeth1996p/static/media/EmailyMernApp.19989d1de5d3218eeac7.jpg",
     "static/media/city-tours-planner.jpg": "/puneeth1996p/static/media/city-tours-planner.c38a33dbac9f4de0bb7f.jpg",
     "static/media/urlshortner.jpg": "/puneeth1996p/static/media/urlshortner.d29b46c5597fa12fa7f4.jpg",
@@ -23,16 +27,12 @@
     "static/media/countdowntimmerJS.jpg": "/puneeth1996p/static/media/countdowntimmerJS.fa162e4728d38166f0ba.jpg",
     "static/media/mini-chat-app.jpg": "/puneeth1996p/static/media/mini-chat-app.453b3a752046fdc9e085.jpg",
     "static/media/HangManScreen.jpg": "/puneeth1996p/static/media/HangManScreen.20cee59a727580da40d6.jpg",
-    "static/media/typescript_react_training.pdf": "/puneeth1996p/static/media/typescript_react_training.5847918dd09eb0df4793.pdf",
-    "static/media/dsa_training.pdf": "/puneeth1996p/static/media/dsa_training.fde8d5b73fd351adab12.pdf",
-    "static/media/full_stack_mern_training.pdf": "/puneeth1996p/static/media/full_stack_mern_training.0bb338b8cb29c56da57a.pdf",
-    "static/media/complete_python_training.pdf": "/puneeth1996p/static/media/complete_python_training.f824a8cd5ebfd3e2d2b8.pdf",
     "index.html": "/puneeth1996p/index.html",
     "main.fb9f5a3a.css.map": "/puneeth1996p/static/css/main.fb9f5a3a.css.map",
-    "main.6b66378d.js.map": "/puneeth1996p/static/js/main.6b66378d.js.map"
+    "main.71a841e4.js.map": "/puneeth1996p/static/js/main.71a841e4.js.map"
   },
   "entrypoints": [
     "static/css/main.fb9f5a3a.css",
-    "static/js/main.6b66378d.js"
+    "static/js/main.71a841e4.js"
   ]
 }
