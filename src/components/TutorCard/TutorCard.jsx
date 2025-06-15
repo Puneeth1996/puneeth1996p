@@ -9,6 +9,20 @@ import reactPDF from '../../assets/pdf/typescript_react_training.pdf'
 
 import './TutorCard.scss'
 
+const EnquireNowBtn = () => (
+	<Button variant='success' className='btn-custom'>
+		<a
+			href='mailto:puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
+			target='_blank'
+			rel='noopener noreferrer'
+			className='btn-link'
+		>
+			<RiMailSendLine className='icon' />
+			Inquire Now
+		</a>
+	</Button>
+)
+
 const TutorCard = () => {
 	return (
 		<>
@@ -41,17 +55,7 @@ const TutorCard = () => {
 						Curriculum
 					</a>
 				</Button>
-				<Button variant='success' className='btn-custom'>
-					<a
-						href='mailto:puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn-link'
-					>
-						<RiMailSendLine className='icon' />
-						Inquire Now
-					</a>
-				</Button>
+				<EnquireNowBtn />
 			</div>
 
 			<div className='tutor-card background2'>
@@ -88,17 +92,7 @@ const TutorCard = () => {
 						Curriculum
 					</a>
 				</Button>
-				<Button variant='info' className='btn-custom'>
-					<a
-						href='mailto:puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn-link'
-					>
-						<RiMailSendLine className='icon' />
-						Inquire Now
-					</a>
-				</Button>
+				<EnquireNowBtn />
 			</div>
 
 			<div className='tutor-card background3'>
@@ -130,17 +124,7 @@ const TutorCard = () => {
 						Curriculum
 					</a>
 				</Button>
-				<Button variant='success' className='btn-custom'>
-					<a
-						href='mailto:puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn-link'
-					>
-						<RiMailSendLine className='icon' />
-						Inquire
-					</a>
-				</Button>
+				<EnquireNowBtn />
 			</div>
 
 			<div className='tutor-card background-dsa'>
@@ -177,17 +161,7 @@ const TutorCard = () => {
 						Curriculum
 					</a>
 				</Button>
-				<Button variant='success' className='btn-custom'>
-					<a
-						href='mailto:puneeth1996trainer@gmail.com?cc=puneeth1996p@gmail.com'
-						target='_blank'
-						rel='noopener noreferrer'
-						className='btn-link'
-					>
-						<RiMailSendLine className='icon' />
-						Inquire
-					</a>
-				</Button>
+				<EnquireNowBtn />
 			</div>
 		</>
 	)
