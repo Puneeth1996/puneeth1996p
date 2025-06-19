@@ -3,6 +3,7 @@ import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { Redirect } from 'react-router'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import './App.scss'
 
@@ -14,6 +15,8 @@ import BlogRoute from './pages/BlogPage/BlogRoute'
 // import PatreonPage from './pages/PatreonPage'
 import ProjectsPage from './pages/ProjectsPage'
 import TrainingPage from './pages/TrainingPage'
+import PaidCoursesPage from './pages/PaidCoursesPage'
+import FreeCoursesPage from './pages/FreeCoursesPage'
 import NotFound from './pages/Notfound/NotFound'
 
 import { DiReact } from 'react-icons/di'
@@ -21,7 +24,9 @@ import { DiReact } from 'react-icons/di'
 class App extends React.Component {
 	constructor(props) {
 		super(props)
+
 		this.state = {
+			navbarExpanded: false,
 			title: 'Puneeth',
 			home: {
 				subTitle: [
@@ -72,12 +77,24 @@ class App extends React.Component {
 			},
 		}
 	}
+	handleNavToggle = (expanded) => {
+		this.setState({ navbarExpanded: expanded })
+	}
 
+	handleNavItemClick = () => {
+		this.setState({ navbarExpanded: false })
+	}
 	render() {
 		return (
 			<Router>
 				<Container className='p-0 app-container'>
-					<Navbar className='border-bottom' bg='transparent' expand='lg'>
+					<Navbar
+						className='border-bottom'
+						bg='transparent'
+						expand='lg'
+						expanded={this.state.navbarExpanded}
+						onToggle={this.handleNavToggle}
+					>
 						<Navbar.Brand>
 							{/* Should adjust the below <a> tag accordingly with respect to the HashRouter & Browser Router  */}
 							<a
@@ -95,28 +112,68 @@ class App extends React.Component {
 							className='p-0 nav-items-container'
 						>
 							<Nav>
-								<Link className='nav-link' to='/'>
+								<Link
+									className='nav-link'
+									to='/'
+									onClick={this.handleNavItemClick}
+								>
 									Home
 								</Link>
-								<Link className='nav-link' to='/about'>
+								<Link
+									className='nav-link'
+									to='/about'
+									onClick={this.handleNavItemClick}
+								>
 									About
 								</Link>
-								<Link className='nav-link' to='/projects'>
+								<Link
+									className='nav-link'
+									to='/projects'
+									onClick={this.handleNavItemClick}
+								>
 									Projects
 								</Link>
-								<Link className='nav-link' to='/trainings'>
-									Trainings
-								</Link>
+								<NavDropdown title='Trainings & Courses'>
+									<NavDropdown.Item
+										as={Link}
+										to='/trainings'
+										onClick={this.handleNavItemClick}
+									>
+										Trainings
+									</NavDropdown.Item>
+									<NavDropdown.Item
+										as={Link}
+										to='/free-course'
+										onClick={this.handleNavItemClick}
+									>
+										Free Course
+									</NavDropdown.Item>
+									<NavDropdown.Item
+										as={Link}
+										to='/paid-courses'
+										onClick={this.handleNavItemClick}
+									>
+										Paid Courses
+									</NavDropdown.Item>
+								</NavDropdown>
 								{/* June 10 2025 Hiding Blogs page as it not much work is being done here. */}
 								{/* June 19 2025 Reinserting the link, will make use */}
-								<Link className='nav-link' to='/blogs'>
+								<Link
+									className='nav-link'
+									to='/blogs'
+									onClick={this.handleNavItemClick}
+								>
 									Blogs
 								</Link>
 								{/* 26 Mar 2025 Hiding patreon page as it not a right fit for portfolio page */}
-								{/* <Link className='nav-link' to='/patreon'>
+								{/* <Link className='nav-link' to='/patreon' onClick={this.handleNavItemClick}>
 									Patreon
 								</Link> */}
-								<Link className='nav-link' to='/contact'>
+								<Link
+									className='nav-link'
+									to='/contact'
+									onClick={this.handleNavItemClick}
+								>
 									Contact
 								</Link>
 							</Nav>
@@ -145,6 +202,24 @@ class App extends React.Component {
 									title={this.state.projects.title}
 									subTitle={this.state.projects.subTitle}
 									text={this.state.projects.text}
+								/>
+							)}
+						/>
+						<Route
+							path='/free-course'
+							render={() => (
+								<FreeCoursesPage
+									title={this.state.trainings.title}
+									subTitle={this.state.trainings.subTitle}
+								/>
+							)}
+						/>
+						<Route
+							path='/paid-courses'
+							render={() => (
+								<PaidCoursesPage
+									title={this.state.trainings.title}
+									subTitle={this.state.trainings.subTitle}
 								/>
 							)}
 						/>

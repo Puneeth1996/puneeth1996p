@@ -1,6 +1,6 @@
 import Hero from '../components/Hero'
 import TutorCard from '../components/TutorCard/TutorCard'
-import TutorWelcomeText from '../components/TutorCard/TutorWelcomeText'
+import { TutorWelcomeText } from '../components/TutorCard/TutorWelcomeText'
 function TrainingPage(props) {
 	return (
 		<div>
