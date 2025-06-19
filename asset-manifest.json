@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/puneeth1996p/static/css/main.fb9f5a3a.css",
-    "main.js": "/puneeth1996p/static/js/main.7c550b8d.js",
-    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.177b1a07168f9f8873cb.jpg",
-    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.b584369fd4e4a517a178.jpg",
-    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.67b41e62a64dfb6af456.jpg",
+    "main.css": "/puneeth1996p/static/css/main.e3baa0f1.css",
+    "main.js": "/puneeth1996p/static/js/main.86e27e0a.js",
+    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.38ab86826ba764cd22a3.jpg",
+    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.44f568696bc3548aa47f.jpg",
+    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.02b7c838d1ef0272d1da.jpg",
     "static/media/CrownClothingEcommApp.jpg": "/puneeth1996p/static/media/CrownClothingEcommApp.65b34b71dabeaaa13299.jpg",
     "static/media/retailClub.jpg": "/puneeth1996p/static/media/retailClub.b77650f196a8cdec0225.jpg",
     "static/media/roboFriends.jpg": "/puneeth1996p/static/media/roboFriends.4807b1b09cd3016a7161.jpg",
@@ -28,11 +28,11 @@
     "static/media/mini-chat-app.jpg": "/puneeth1996p/static/media/mini-chat-app.453b3a752046fdc9e085.jpg",
     "static/media/HangManScreen.jpg": "/puneeth1996p/static/media/HangManScreen.20cee59a727580da40d6.jpg",
     "index.html": "/puneeth1996p/index.html",
-    "main.fb9f5a3a.css.map": "/puneeth1996p/static/css/main.fb9f5a3a.css.map",
-    "main.7c550b8d.js.map": "/puneeth1996p/static/js/main.7c550b8d.js.map"
+    "main.e3baa0f1.css.map": "/puneeth1996p/static/css/main.e3baa0f1.css.map",
+    "main.86e27e0a.js.map": "/puneeth1996p/static/js/main.86e27e0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb9f5a3a.css",
-    "static/js/main.7c550b8d.js"
+    "static/css/main.e3baa0f1.css",
+    "static/js/main.86e27e0a.js"
   ]
 }
