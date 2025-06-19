@@ -3,7 +3,7 @@ import { HashRouter as Router, Route, Link, Switch } from 'react-router-dom'
 import { Redirect } from 'react-router'
 import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+// import NavDropdown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
 import './App.scss'
 
@@ -15,8 +15,8 @@ import BlogRoute from './pages/BlogPage/BlogRoute'
 // import PatreonPage from './pages/PatreonPage'
 import ProjectsPage from './pages/ProjectsPage'
 import TrainingPage from './pages/TrainingPage'
-import PaidCoursesPage from './pages/PaidCoursesPage'
-import FreeCoursesPage from './pages/FreeCoursesPage'
+// import PaidCoursesPage from './pages/PaidCoursesPage'
+// import FreeCoursesPage from './pages/FreeCoursesPage'
 import NotFound from './pages/Notfound/NotFound'
 
 import { DiReact } from 'react-icons/di'
@@ -133,7 +133,15 @@ class App extends React.Component {
 								>
 									Projects
 								</Link>
-								<NavDropdown title='Trainings & Courses'>
+								<Link
+									className='nav-link'
+									to='/trainings'
+									onClick={this.handleNavItemClick}
+								>
+									Trainings
+								</Link>
+								{/* 19th june 2025 developed drop down links for trainign  */}
+								{/* <NavDropdown title='Trainings & Courses'>
 									<NavDropdown.Item
 										as={Link}
 										to='/trainings'
@@ -155,7 +163,7 @@ class App extends React.Component {
 									>
 										Paid Courses
 									</NavDropdown.Item>
-								</NavDropdown>
+								</NavDropdown> */}
 								{/* June 10 2025 Hiding Blogs page as it not much work is being done here. */}
 								{/* June 19 2025 Reinserting the link, will make use */}
 								<Link
@@ -205,7 +213,7 @@ class App extends React.Component {
 								/>
 							)}
 						/>
-						<Route
+						{/* <Route
 							path='/free-course'
 							render={() => (
 								<FreeCoursesPage
@@ -222,7 +230,7 @@ class App extends React.Component {
 									subTitle={this.state.trainings.subTitle}
 								/>
 							)}
-						/>
+						/> */}
 						<Route
 							path='/trainings'
 							render={() => (

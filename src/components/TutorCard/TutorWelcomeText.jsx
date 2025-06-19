@@ -9,14 +9,15 @@ const TutorWelcomeText = () => {
 			<h1>1-on-1 Online Coding Tutor - Puneeth P</h1>
 			<p>
 				Learn programming with personalized training in{' '}
-				<strong>JavaScript</strong>, <strong>Python</strong>, and{' '}
-				<strong>DSA</strong>. I offer live, 1-on-1 coaching to help students and
-				job-seekers build skills, crack coding interviews, and become confident
+				<strong>Full Stack MERN</strong>, <strong>Frontend ReactJS</strong>,{' '}
+				<strong>Python</strong>, and <strong>DSA</strong>. I offer live, 1-on-1
+				coaching to help students and job-seekers build skills, looking for next
+				big career growth, crack coding interviews, and become confident
 				developers.
 			</p>
 			<p>
 				Whether you're a beginner or preparing for placements, my step-by-step
-				sessions are tailored to your goals. Book a free trial and start
+				sessions are tailored to your goals. Write an email to me and start
 				learning today!
 			</p>
 		</section>
@@ -141,7 +142,7 @@ const PaidCourseWelcomeText = () => {
 const FreeCourseWelcomeText = () => {
 	return (
 		<section className='tutor-intro-text-section'>
-			<h1>Free Programming Course – Learn with Puneeth P</h1>
+			<h1>For Free Programming Course</h1>
 			<p>
 				Explore my <strong>free programming tutorials</strong> on YouTube
 				covering <strong>JavaScript</strong>, <strong>Python</strong>, and{' '}
@@ -163,6 +164,58 @@ const FreeCourseWelcomeText = () => {
 					@PuneethP-learntechwithme
 				</a>
 			</p>
+			{/* <section className='enroll-section'>
+				<h2>Start Your Journey</h2>
+				<p>
+					Ready to get started? Book a trial session or enroll in a full
+					package.
+				</p>
+				<a
+					href='https://calendly.com/your-schedule-link'
+					className='btn-primary'
+					target='_blank'
+					rel='noopener noreferrer'
+				>
+					Book a Free Trial
+				</a>
+			</section> */}
+			{/* <section className='testimonials'>
+				<h2>What My Students Say</h2>
+				<blockquote>
+					“Puneeth’s 1-on-1 classes helped me understand DSA like never before.
+					I got shortlisted for a tech internship within a month!”
+					<footer>
+						— Arjun, B.Tech CSE
+						<div className='testimonial-socials'>
+							<a
+								href='https://linkedin.com/in/arjun-student'
+								target='_blank'
+								rel='noopener noreferrer'
+								aria-label='LinkedIn Profile'
+							>
+								<FaLinkedinIn
+									style={{ width: 18, height: 18, marginRight: 15 }}
+								/>
+							</a>
+							<a
+								href='https://github.com/arjun-dev'
+								target='_blank'
+								rel='noopener noreferrer'
+								aria-label='GitHub Profile'
+							>
+								<FaGithub
+									style={{
+										width: 18,
+										height: 18,
+										marginRight: 15,
+										color: 'black',
+									}}
+								/>
+							</a>
+						</div>
+					</footer>
+				</blockquote>
+			</section> */}
 		</section>
 	)
 }
