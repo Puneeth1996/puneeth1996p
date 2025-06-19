@@ -52,7 +52,7 @@ export default class SingleBlog extends Component {
 						<h3 style={{ margin: '5vh 0 5vh 15vw' }}>
 							{this.state.blogData.card_heading}
 						</h3>
-						<h5 style={{ margin: '0 0 5vh 15vw' }}>
+						<h5 style={{ margin: '0 15vw 5vh 15vw', fontSize: '1.5rem' }}>
 							{this.state.blogData.card_description}
 						</h5>
 						<div
