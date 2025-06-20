@@ -27,7 +27,7 @@ class ContactPage extends React.Component {
 
 	render() {
 		return (
-			<div>
+			<div style={{ minHeight: '67vh' }}>
 				<RollingTextContact
 					title={this.props.title}
 					textArr={this.props.subTitle}
