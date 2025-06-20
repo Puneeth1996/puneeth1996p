@@ -27,6 +27,6 @@ on first time load when all the images are loaded for the very first time
 [20 June 2025] 
 - Updated the training page with downloadable pdf content
 - Updated the contact page with a new form
-- Added the google analytics script to the index.html file
+- Added the google analytics script to the index.html file - 1996p email to check for - https://analytics.google.com/analytics/web/?authuser=1#/a137006528p270736900/admin/property/create
 
 
