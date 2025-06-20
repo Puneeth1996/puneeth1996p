@@ -22,3 +22,11 @@ Setup Notes
 - Compressed images for mainly having the faster load time
 on first time load when all the images are loaded for the very first time
 - Updated the training page with downloadable pdf content
+
+
+[20 June 2025] 
+- Updated the training page with downloadable pdf content
+- Updated the contact page with a new form
+- Added the google analytics script to the index.html file
+
+
