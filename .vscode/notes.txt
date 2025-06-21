@@ -30,3 +30,21 @@ on first time load when all the images are loaded for the very first time
 - Added the google analytics script to the index.html file - 1996p email to check for - https://analytics.google.com/analytics/web/?authuser=1#/a137006528p270736900/admin/property/create
 
 
+21 June 2025
+Updateing this below rolling text in the training page
+
+
+
+"Chasing growth, not comfort",
+"Built to evolve and grow",
+"Change is my daily habit",
+"I seek growth, always",
+"Progress fuels my purpose",
+"Learning is my lifestyle",
+"Growth begins with change",
+"Change drives my journey forward",
+"Opportunities are everywhere I look",
+"I choose challenge over comfort",
+
+
+

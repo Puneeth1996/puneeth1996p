@@ -61,7 +61,19 @@ class App extends React.Component {
 			},
 			trainings: {
 				title: 'iTeach',
-				subTitle: 'Looook out, you can unlock the superhuman potential!',
+				// subTitle: 'Looook out, you can unlock the superhuman potential!',
+				subTitle: [
+					'Chasing growth, not comfort',
+					'Built to evolve and grow',
+					'Change is my daily habit',
+					'I seek growth, always',
+					'Progress fuels my purpose',
+					'Learning is my lifestyle',
+					'Growth begins with change',
+					'Change drives my journey forward',
+					'Opportunities are everywhere I look',
+					'I choose challenge over comfort',
+				],
 			},
 			contact: {
 				title: 'Contact Page',
