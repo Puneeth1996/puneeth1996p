@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/puneeth1996p/static/css/main.e3baa0f1.css",
-    "main.js": "/puneeth1996p/static/js/main.51d4c52b.js",
-    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.756eb50d3ee9c4a9ab3b.jpg",
-    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.a0053b0e460ecd0c190b.jpg",
-    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.15507ccfd4e08ca37663.jpg",
+    "main.js": "/puneeth1996p/static/js/main.0823f044.js",
+    "static/media/myimg.jpg": "/puneeth1996p/static/media/myimg.db6a55af1bfb104b152a.jpg",
+    "static/media/projects.jpg": "/puneeth1996p/static/media/projects.ea9d8664742cbfd9ec66.jpg",
     "static/media/CrownClothingEcommApp.jpg": "/puneeth1996p/static/media/CrownClothingEcommApp.65b34b71dabeaaa13299.jpg",
     "static/media/retailClub.jpg": "/puneeth1996p/static/media/retailClub.b77650f196a8cdec0225.jpg",
     "static/media/roboFriends.jpg": "/puneeth1996p/static/media/roboFriends.4807b1b09cd3016a7161.jpg",
+    "static/media/contactme.jpg": "/puneeth1996p/static/media/contactme.c041514a1313b3a1ae76.jpg",
     "static/media/faceReco.jpg": "/puneeth1996p/static/media/faceReco.2ba77aa033888c444761.jpg",
     "static/media/techStoreEcom.jpg": "/puneeth1996p/static/media/techStoreEcom.23071dedce2b2df77863.jpg",
     "static/media/NotesAppScreen.jpg": "/puneeth1996p/static/media/NotesAppScreen.cc2bf4af058a875ae437.jpg",
@@ -29,10 +29,10 @@
     "static/media/HangManScreen.jpg": "/puneeth1996p/static/media/HangManScreen.20cee59a727580da40d6.jpg",
     "index.html": "/puneeth1996p/index.html",
     "main.e3baa0f1.css.map": "/puneeth1996p/static/css/main.e3baa0f1.css.map",
-    "main.51d4c52b.js.map": "/puneeth1996p/static/js/main.51d4c52b.js.map"
+    "main.0823f044.js.map": "/puneeth1996p/static/js/main.0823f044.js.map"
   },
   "entrypoints": [
     "static/css/main.e3baa0f1.css",
-    "static/js/main.51d4c52b.js"
+    "static/js/main.0823f044.js"
   ]
 }
